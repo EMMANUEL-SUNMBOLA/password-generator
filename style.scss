@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.herd{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    h1{
+        font-size: 20px;
+        color: #fff;
+    }
+}
+.errs{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    h1{
+        font-size: 20px;
+        color: #fff;
+    }
+}
+.forms{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    flex-direction: column;
+    form{
+        label{
+            font-size: 20px;
+        }
+        input[type = "text"]{
+            margin: 0px auto 20px auto;
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            font-size: 20px;
+            color: green;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            border-radius: 5%;
+            color: #fff;
+            background-color: green;
+            transition:  background-color .5s  ease-in-out;
+            transition:  color .3s  ease-in-out;
+            margin: 20px auto;
+            &:hover{
+                background-color: #fff;
+                color: green;
+                border: 1px solid green;
+            }
+        }
+    }
+}
+footer{
+    height: 5vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size: 20px;
+}
+.pass{
+    input[type = "text"]{
+        width: 100%;
+        height: 30px;
+        margin: 0px auto 20px auto;
+        text-align: center;
+        font-size: 20px;
+        color: green;
+    }
+
+}
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+    h1{
+        text-decoration: underline;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        tr{
+            height: 40px;
+            &:hover{
+                background-color: #ddd;
+            }
+            &:nth-child(even){
+                background-color: #f2f2f2;
+            }
+            th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: center;
+                background-color: green;
+                color: white;
+            }
+            td{
+                text-align: center;
+            }
+        }
+    }
+}
+.copy{
+        width: 100px;
+        height: 40px;
+        border-radius: 5%;
+        color: #fff;
+        background-color: green;
+        transition:  background-color .5s  ease-in-out;
+        transition:  color .3s  ease-in-out;
+        margin: 20px auto;
+        &:hover{
+            background-color: #fff;
+            color: green;
+            border: 1px solid green;
+        } 
+}
